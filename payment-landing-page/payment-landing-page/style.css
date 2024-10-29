@@ -47,6 +47,7 @@ body {
 .navbar-right{
     display: flex;
     gap: 1vw;
+    padding-right: 2vw;
 }
 
 .registerbutton{
@@ -54,4 +55,18 @@ background-color: #e9dcff;
 border-radius: 5px;
 border: 0px;
 padding: 10px 30px 10px 30px;
+font-size: larger;
 }
+
+.registerbutton:hover{
+    background-color: #d3cbe0;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 5vh;
+}
+
