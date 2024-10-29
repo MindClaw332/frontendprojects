@@ -11,11 +11,25 @@ body {
     background-color: #1e1e1e;
 }
 
+h2 {
+    margin: 0;
+}
+
+
+
 .poppins-bold {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
-  }
+}
+
+
+.poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #e9dcff;
+}
 
 /* write your CSS here */
 
@@ -25,7 +39,7 @@ body {
     padding: 3vh 6vw 3vh 6vw;
     align-items: center;
     flex-wrap: wrap;
-} 
+}
 
 
 .navigationitem {
@@ -33,7 +47,7 @@ body {
     color: white;
 }
 
-.navigationitem:hover{
+.navigationitem:hover {
     color: #e9dcff;
 }
 
@@ -44,21 +58,23 @@ body {
 
 }
 
-.navbar-right{
+.navbar-right {
     display: flex;
     gap: 1vw;
     padding-right: 2vw;
 }
 
-.registerbutton{
-background-color: #e9dcff;
-border-radius: 5px;
-border: 0px;
-padding: 10px 30px 10px 30px;
-font-size: larger;
+.download,
+.registerbutton {
+    background-color: #e9dcff;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px 30px 10px 30px;
+    font-size: larger;
 }
 
-.registerbutton:hover{
+.download:hover,
+.registerbutton:hover {
     background-color: #d3cbe0;
 }
 
@@ -68,5 +84,22 @@ font-size: larger;
     margin-left: 6vw;
     margin-right: 6vw;
     margin-top: 5vh;
+    font-size: 50px;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap-reverse;
+    padding-bottom: 10vh;
 }
 
+.smaller {
+    font-size: 30px;
+    margin-bottom: 3vh;
+}
+
+.herotext {
+    margin-bottom: 5vh;
+}
+
+.download {
+    font-size: 30px;
+}
