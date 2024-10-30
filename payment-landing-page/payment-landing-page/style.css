@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap');
+
+body {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #1e1e1e;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #e9dcff;
+}
+
+/* write your CSS here */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 6vw 3vh 6vw;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.navigationitem {
+    text-decoration: none;
+    color: white;
+}
+
+.navigationitem:hover {
+    color: #e9dcff;
+}
+
+.navbar-middle {
+    display: flex;
+    gap: 4vw;
+    margin-left: -8vw;
+
+}
+
+.navbar-right {
+    display: flex;
+    gap: 1vw;
+    padding-right: 2vw;
+}
+
+.download,
+.registerbutton {
+    background-color: #e9dcff;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px 30px 10px 30px;
+    font-size: larger;
+}
+
+.download:hover,
+.registerbutton:hover {
+    background-color: #d3cbe0;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 5vh;
+    font-size: 50px;
+    align-items: center;
+    color: white;
+    flex-wrap: wrap-reverse;
+    padding-bottom: 10vh;
+}
+
+.smaller {
+    font-size: 30px;
+    margin-bottom: 3vh;
+}
+
+.herotext {
+    margin-bottom: 5vh;
+    width: 40vw;
+}
+
+.download {
+    font-size: 30px;
+}
+
+.hamburger{
+    font-size: 35px;
+    display: none;
+}
+.hamburger a{
+    display: block;
+}
+
+#mobilelinks{
+    display: none;
+}
+
+#mobilelinks a{
+    display: block;
+    margin: 3vh;
+    font-size: 50px;
+
+}
+
+#mobilelinks a:hover{
+    background-color: #e9dcff;
+    color: #1e1e1e;
+    padding-left: 2vw;
+    border-radius: 5px;
+
+    
+}
+
+#mobilelinks{
+    
+}
+
+@media only screen and (max-width: 1000px){
+    .herotext{
+        width: auto;
+    }
+
+    .navbar-middle,
+    .navbar-right{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+    
+}
