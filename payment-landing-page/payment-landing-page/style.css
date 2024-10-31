@@ -87,7 +87,7 @@ h2 {
     font-size: 50px;
     align-items: center;
     color: white;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     padding-bottom: 10vh;
 }
 
@@ -133,9 +133,7 @@ h2 {
     
 }
 
-#mobilelinks{
-    
-}
+
 
 @media only screen and (max-width: 1000px){
     .herotext{
